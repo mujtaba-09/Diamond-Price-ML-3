@@ -1,0 +1,83 @@
+{
+  "problem_title": "Diamond Price Prediction",
+  "target": "price",
+  "unit": "USD",
+  "best_model": "Extra Trees",
+  "cv_rmse": 544.8539339583054,
+  "cv_r2": 0.9813155132375304,
+  "n_rows": 53794,
+  "n_folds": 10,
+  "features": {
+    "carat": {
+      "type": "float",
+      "min": 0.2,
+      "max": 5.01,
+      "median": 0.7
+    },
+    "cut": {
+      "type": "category",
+      "options": [
+        "Fair",
+        "Good",
+        "Ideal",
+        "Premium",
+        "Very Good"
+      ]
+    },
+    "color": {
+      "type": "category",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ]
+    },
+    "clarity": {
+      "type": "category",
+      "options": [
+        "I1",
+        "IF",
+        "SI1",
+        "SI2",
+        "VS1",
+        "VS2",
+        "VVS1",
+        "VVS2"
+      ]
+    },
+    "depth": {
+      "type": "float",
+      "min": 43.0,
+      "max": 79.0,
+      "median": 61.8
+    },
+    "table": {
+      "type": "float",
+      "min": 43.0,
+      "max": 95.0,
+      "median": 57.0
+    },
+    "x": {
+      "type": "float",
+      "min": 0.0,
+      "max": 10.74,
+      "median": 5.7
+    },
+    "y": {
+      "type": "float",
+      "min": 0.0,
+      "max": 58.9,
+      "median": 5.71
+    },
+    "z": {
+      "type": "float",
+      "min": 0.0,
+      "max": 31.8,
+      "median": 3.53
+    }
+  }
+}
